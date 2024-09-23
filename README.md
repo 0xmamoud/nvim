@@ -1,9 +1,22 @@
-**This repo is supposed to used as config by NvChad users!**
+# Neovim config
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+a simple Neovim config built on top of nvchad for C/CPP and web development (preter, eslint, tailwind-css, ts...).
 
-# Credits
+## Installation
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+Install nvchad v2.0 and clone this repository in the lua folder
+```bash
+  git clone https://github.com/0xmamoud/nvim c~/.config/ --depth 1
+  cd ~/.config/nvim/lua && nvim
+```
+
+Don't forgot to run mason to install all languages server
+```bash
+  MasonInstallAll
+```
+
+for Treesitter auto suggestion, run 
+```bash
+  TSIntall <language>
+```
+
