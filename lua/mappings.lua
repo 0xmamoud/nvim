@@ -31,5 +31,17 @@ end
 map("n", "<leader>tc", toggle_copilot, { desc = "Toggle Copilot" })
 map("i", "<C-s>", "<Esc>:w<CR>i", { desc = "Save file" })
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
---
-map("n", "<leader>td", "<cmd>lua vim.lsp.buf.hover()<CR>", { desc = "Hover documentation" })
+
+-- Function to show hover documentation
+local function show_hover()
+  vim.lsp.buf.hover()
+end
+
+-- Function to show diagnostics
+local function show_diagnostics()
+  vim.diagnostic.open_float(nil, { focusable = false })
+end
+
+-- Mappings for showing hover and diagnostics
+map("n", "<leader>sd", show_hover, { desc = "Show hover documentation" }) -- Hover documentation
+map("n", "<leader>se", show_diagnostics, { desc = "Show diagnostics" })   -- Show diagnostics
