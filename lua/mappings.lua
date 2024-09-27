@@ -29,4 +29,7 @@ end
 
 -- Mapping to toggle Copilot
 map("n", "<leader>tc", toggle_copilot, { desc = "Toggle Copilot" })
+map("i", "<C-s>", "<Esc>:w<CR>i", { desc = "Save file" })
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+--
+map("n", "<leader>td", "<cmd>lua vim.lsp.buf.hover()<CR>", { desc = "Hover documentation" })
