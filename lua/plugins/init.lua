@@ -15,9 +15,7 @@ return {
 
   {
     "folke/trouble.nvim",
-    opts = {
-
-    },
+    opts = {},
     cmd = "Trouble",
     keys = {
       {
@@ -66,6 +64,11 @@ return {
         "tailwindcss-language-server",
         "eslint-lsp",
         "prettierd",
+        "dockerls",
+        "hadolint",
+        "yaml-language-server",
+        "json-lsp",
+        "taplo",
       },
     },
   },
@@ -112,6 +115,7 @@ return {
         "rust",
         "toml",
         "yaml",
+        "dockerfile",
       },
     },
   },

@@ -5,6 +5,7 @@ local options = {
     cpp = { "clang-format" },
     css = { "prettier" },
     html = { "prettier" },
+    dockerfile = { "hadolint" },
   },
 
   format_on_save = {
