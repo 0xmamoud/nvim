@@ -18,7 +18,7 @@
   "minty": { "branch": "main", "commit": "6dce9f097667862537823d515a0250ce58faab05" },
   "nvim-autopairs": { "branch": "master", "commit": "b464658e9b880f463b9f7e6ccddd93fb0013f559" },
   "nvim-cmp": { "branch": "main", "commit": "ca4d3330d386e76967e53b85953c170658255ecb" },
-  "nvim-lspconfig": { "branch": "master", "commit": "47f236c058f0511702286a21ba53bbf42abbd8a8" },
+  "nvim-lspconfig": { "branch": "master", "commit": "fc16fd4f9c5d72b45db0f45ee275db3a9a30481a" },
   "nvim-tree.lua": { "branch": "master", "commit": "db8d7ac1f524fc6f808764b29fa695c51e014aa6" },
   "nvim-treesitter": { "branch": "master", "commit": "3b8dee4293567b0b9a87360842af14669f60dd13" },
   "nvim-ts-autotag": { "branch": "main", "commit": "1cca23c9da708047922d3895a71032bc0449c52d" },

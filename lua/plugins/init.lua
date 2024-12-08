@@ -69,6 +69,8 @@ return {
         "yaml-language-server",
         "json-lsp",
         "taplo",
+        "pyright",
+        "black",
       },
     },
   },

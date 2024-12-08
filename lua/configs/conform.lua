@@ -6,6 +6,7 @@ local options = {
     css = { "prettier" },
     html = { "prettier" },
     dockerfile = { "hadolint" },
+    python = { "black" },
   },
 
   format_on_save = {
