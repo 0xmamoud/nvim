@@ -59,6 +59,7 @@ return {
         "clang-format",
         "cmake",
         "vscode-html-language-server",
+        "emmet-ls",
         "vscode-css-language-server",
         "ts_ls",
         "tailwindcss-language-server",

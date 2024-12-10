@@ -29,6 +29,24 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+lspconfig.emmet_ls.setup {
+  filetypes = {
+    "css",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+  },
+  init_options = {
+    html = {
+      options = {
+        ["bem.enabled"] = true,
+      },
+    },
+  },
+}
+
 -- configuring single server, example: typescript
 -- lspconfig.ts_ls.setup {
 --   on_attach = nvlsp.on_attach,
