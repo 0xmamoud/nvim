@@ -7,6 +7,12 @@ local options = {
     html = { "prettier" },
     dockerfile = { "hadolint" },
     python = { "black" },
+    javascript = { "prettier" },
+  },
+
+  linters_by_ft = {
+    python = { "flake8" },
+    dockerfile = { "hadolint" },
   },
 
   format_on_save = {

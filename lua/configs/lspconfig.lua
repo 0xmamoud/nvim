@@ -29,6 +29,18 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+require("lspconfig").pyright.setup {
+  settings = {
+    python = {
+      linting = {
+        enabled = true,
+        pylintEnabled = false,
+        flake8Enabled = true,
+      },
+    },
+  },
+}
+
 lspconfig.emmet_ls.setup {
   filetypes = {
     "css",
