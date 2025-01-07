@@ -13,6 +13,7 @@ local options = {
   linters_by_ft = {
     python = { "flake8" },
     dockerfile = { "hadolint" },
+    javascript = { "eslint" },
   },
 
   format_on_save = {
