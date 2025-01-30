@@ -17,6 +17,7 @@ local servers = {
   "yamlls",
   "taplo",
   "pyright",
+  "prismals",
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 
