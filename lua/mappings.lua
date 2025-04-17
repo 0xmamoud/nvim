@@ -20,6 +20,7 @@ end
 -- Mappings for showing hover and diagnostics
 map("n", "<leader>sd", show_hover, { desc = "Show hover documentation" }) -- Hover documentation
 map("n", "<leader>se", show_diagnostics, { desc = "Show diagnostics" }) -- Show diagnostics
+map("n", "<leader>td", "<cmd>Trouble diagnostics toggle filter.buf=0<cr>", { desc = "Toggle diagnostics" }) -- Toggle diagnostics
 
 -- Function to move lines up and down
 map("n", "_", "ddkP")
