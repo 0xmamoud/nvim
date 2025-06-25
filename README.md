@@ -6,7 +6,7 @@ a simple Neovim config built on top of nvchad for C/CPP and web development (pre
 
 Install nvchad v2.0 and clone this repository in the lua folder
 ```bash
-  git clone https://github.com/0xmamoud/nvim c~/.config/ --depth 1
+  git clone https://github.com/0xmamoud/nvim ~/.config/ --depth 1
   cd ~/.config/nvim/lua && nvim
 ```
 
